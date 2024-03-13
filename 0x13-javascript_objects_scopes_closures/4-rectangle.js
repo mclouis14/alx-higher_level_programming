@@ -23,10 +23,10 @@ class Rectangle {
     this.height = aux;
   }
 
-	double () {
-	  this.width *= 2;
-	  this.height *= 2;
-	}
+  double () {
+    this.width *= 2;
+    this.height *= 2;
+  }
 }
 
 module.exports = Rectangle;
